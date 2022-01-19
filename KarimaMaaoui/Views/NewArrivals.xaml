@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.NewArrivals">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Smiley Face Oversized Pullover" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                        <Label Text="131DT" FontSize="35" Padding="0, 0,10,0"/>
+                    </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_smiley_pullover-14_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                </StackLayout>
+                <Label Text="The Smiley Face Oversized Pullover will have you grinning from ear to ear! This comfy sweatshirt is designed with a soft and stretchy knit with a fleece interior. It features a crew neckline, long sleeves, an oversized fit, and a smiley face on the front. Style the Smiley Face Oversized Pullover with your favorite leggings and sneakers for a comfy casual look! Available in 2 colors."/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Be Kind To Your Mind Pullover" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                        <Label Text="147DT" FontSize="35" Padding="0, 0,10,0"/>
+                    </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_smiley_pullover-10_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                </StackLayout>
+                <Label Text="We love the message behind the Be Kind To Your Mind Pullover! This comfy sweatshirt is designed with a soft and stretchy knit with a fleece interior. It features a crew neckline, long sleeves, an oversized fit, and a smiley face on the front with the words Be Kind To Your Mind on the back. Style the Be Kind To Your Mind Pullover with your favorite leggings and sneakers for a comfy casual look!"/>
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

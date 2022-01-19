@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarimaMaaoui.Views.IsetRades">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Informatique ">
+        <StackLayout>
+            <Label FontSize="25" TextColor="#0F7786">Informatique Department</Label>
+            <Image Source="https://esirem.u-bourgogne.fr/wp-content/uploads/2019/06/ESIREM-066-1024x683.jpg" />
+            <Label FontSize="15" Padding="15" Text="
+                    Le Département des Technologies de l'informatique a démarré en février 2003. Il regroupe des enseignants et des professionnels (vacataires) à la disposition des étudiants préparant un D.E.S.T (Diplôme des Études Supérieures de Technologie) ou une Licence appliquée.
+               "></Label>
+
+        </StackLayout>
+
+    </ContentPage>
+
+    <ContentPage Title="Genie Civil">
+        <StackLayout>
+
+            <Label FontSize="25" TextColor="#0F7786">Genie Civil Department</Label>
+            <Image Source="https://p1cdn4static.civiclive.com/UserFiles/Servers/Server_109478/Image/PublicService/PublicWorksComplex-Directors.JPG" />
+            <Label FontSize="15" Padding="15" Text="Le Département de Génie Civil a démarré en Septembre 1996. Il regroupe des enseignants et des équipements de spécialité, totalement à la disposition des étudiants préparant une L.A.GC (Licence Appliquée en Génie Civil). "></Label>
+
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Genie Mecanique">
+        <StackLayout>
+            <Label FontSize="25" TextColor="#0F7786">Genie Mecanique Department</Label>
+            <Image Source="https://www.netbid.com/images/14603/X14603-194_1_slide.jpg" />
+            <Label FontSize="15" Padding="15" Text="Infrastructures :
+8 salles de cours
+22 laboratoires
+Atelier de production
+Ressources humaines
+05 enseignants d'autres départements
+06 techniciens
+une secrétaire de département
+une secrétaire pour les stages
+Enseignants : 60
+Techniciens : 05"></Label>
+
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Gestion">
+        <StackLayout>
+            <Label FontSize="25" TextColor="#0F7786">Gestion Department</Label>
+            <Image Source="https://www.cba.training/wp-content/uploads/2016/09/Gestion-d%E2%80%99un-D%C3%A9partement-d%E2%80%99Audit-Interne.jpg"  />
+            <Label FontSize="15" Padding="15" Text="Le département sciences économiques et de gestion regroupe toutes les formations du secteur tertiaire demandées par le marché. Les profils de formation spécialisés et pointus concernent des domaines variés allant des techniques comptables et financières aux techniques de vente et de communication publicitaire en passant par la logistique et le transport international.
+La vocation opérationnelle liée au caractère professionnalisant des licences délivrées exige une organisation par projets impliquant un partenariat actif avec les corporations professionnelles dans la conception des curricula de formation, dans l'exécution de la formation et dans le recrutement et le suivi des diplômés."></Label>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Genie Electrique">
+        <StackLayout>
+            <Label FontSize="25" TextColor="#0F7786">Genie Electrique Department</Label>
+            <Image  Source="https://www.iernc.com/shop/MVC-017F.jpg" />
+            <Label FontSize="15" Padding="15" Text="يقوم قسم الهندسة الكهربائية بتكوين فنيين ساميين في جميع المجالات الخاصة بالأنظمة الصّناعية التي تعتمد أساسا على الطاقة الكهربائية للإنتاج وتوفير مختلف الخدمات وذلك باكتساب جميع المهارات لبرمجتها، تسييرها، صيانتها ومراقبتها مع ضمان جميع آليات السّلامة المهنيّة وسلامة جميع معدّات ومكوّنات الأنظمة الكهربائيّة.
+
+"></Label>
+
+        </StackLayout>
+    </ContentPage>
+      
+</TabbedPage>

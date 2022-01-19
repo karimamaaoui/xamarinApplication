@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarimaMaaoui.Views.MagazinDetail"
+             Title="Welcome">
+    <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+       
+            <StackLayout Orientation="Vertical" Margin="10">
+            <Image  Source="https://4vector.com/i/free-vector-female-fashion-illustrator-05-vector_000152_05.jpg" HeightRequest="200" WidthRequest="100" Margin="5"/>
+            <Label Text=" Shopini Better in every way" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="30" TextColor="#9BB5C5"/>
+            <Label HorizontalOptions="Center" Text="Shop is a new online shopping assistant that makes every part of your experience better. Shop better Shopini, your new shopping assistant.  "/>
+            </StackLayout>
+      
+    </StackLayout>
+</ContentPage>

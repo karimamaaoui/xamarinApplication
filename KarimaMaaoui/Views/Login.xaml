@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarimaMaaoui.Views.Login">
+    <ContentPage.Content>
+            <StackLayout Margin="0,25,0,0">
+            <Frame CornerRadius="50" HeightRequest="50" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="#F4C0B3"  IsClippedToBounds="True">
+                <Label FontSize="25" TextColor="#9EBADF"  HorizontalOptions="Center">LOGIN</Label>
+
+            </Frame>
+                <Grid  RowSpacing="50" VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Entry Placeholder="Email" Grid.Row="0" TextColor="HotPink" x:Name="EntryEmail" />
+                <Entry Placeholder="Password" Grid.Row="1" IsPassword="True" TextColor="HotPink" x:Name="EntryPassword" />
+                <Button Text="Login" Grid.Row="2" HorizontalOptions="CenterAndExpand" WidthRequest="100" TextColor="Black"  BackgroundColor="#B6E6FE" Clicked="Button_Clicked_1"/>
+                <Button Text="SignUp" Grid.Row="3" HorizontalOptions="CenterAndExpand" WidthRequest="100" Clicked="Button_Clicked" BackgroundColor="#137EBD"/>
+                </Grid>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

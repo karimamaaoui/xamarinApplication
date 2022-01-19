@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.Baby">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+           
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="Baby Zip Sleeper In Organic Cotton" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                            <Label Text="29DT" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn-vzn.yottaa.net/5d02a70c4f1bbf63c39ca930/www.hannaandersson.com/v~4b.c4/dw/image/v2/BBLM_PRD/on/demandware.static/-/Sites-master-catalog/default/dwddc80b00/images/main/62027/62027_VL8_60_01.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Crafted in organic cotton, our baby sleepers are specially combed to leave only the longest fibers for extra softness all night, and the flatlock seams are smooth on baby's skin. The snug design zips quick at changing time, washes beautifully, and makes life as easy for newborns as it does for new walkers."/>
+                </StackLayout>
+
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Sueded Jersey Art Tee" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                        <Label Text="14DT" FontSize="35" Padding="0, 0,10,0"/>
+                    </StackLayout>
+                    <Image  Source="https://cdn-vzn.yottaa.net/5d02a70c4f1bbf63c39ca930/www.hannaandersson.com/v~4b.c4/dw/image/v2/BBLM_PRD/on/demandware.static/-/Sites-master-catalog/default/dwea15b138/images/main/65615/65615_NZ1_60_01.jpg" HeightRequest="100" WidthRequest="100"/>
+                </StackLayout>
+                <Label Text="Sweet tee crafted in a soft and smooth brushed cotton jersey is ready for it all, day after day. Slip it on and mix and match for easy outfits, plus it washes like a dream, perfect for handing down to the next sibling, relative or friend."/>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

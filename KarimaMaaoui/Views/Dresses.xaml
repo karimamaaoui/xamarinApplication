@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.Dresses">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            
+                <StackLayout Orientation="Vertical">
+                <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Made With Love Dress" FontAttributes="Bold" TextColor="#B81736" FontSize="30"/>
+                        <Label Text="120DT" FontSize="25" Padding="0, 0,10,0"/>
+                    </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_mini_dress-24_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                </StackLayout>
+                <Label Text="Get ready to turn some heads in the Made With Love Dress! This cute dress is designed with a textured crinkle linen material. It features a rounded neckline, long balloon sleeves with elastic cuffs, and a flowy fit with a ruffle hem that ends at a mini length. Style the Made With Love Dress with booties and gold jewelry! Available in 2 colors."/>
+                </StackLayout>
+           
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="Dreamy Romance Swiss Dot Dress" FontAttributes="Bold" TextColor="#B81736" FontSize="30"/>
+                            <Label Text="7200DT" FontSize="25" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_olive_swiss_dot_dress-10_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Bring your fantasy to life in the Dreamy Romance Swiss Dot Dress! This cute dress is designed with a lightweight woven knit with a swiss dot texture. It features a rounded neckline, long flounce sleeves with smocked cuffs, an elastic waistband, and a flowy fit that ends at a mini length. Style the Dreamy Romance Dress with booties and a wide brim hat for a cute + trendy outfit!"/>
+                </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

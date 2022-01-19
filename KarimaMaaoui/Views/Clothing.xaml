@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.Clothing">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+           
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="See The Good Pullover" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                            <Label Text="120DT" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_see_the_good_pullover-16_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="We love the positive message on the See The Good Pullover! This lightweight sweatshirt is designed with a soft and stretchy knit. It features a rounded neckline, long cuffed sleeves, a relaxed fit with the words See The Good across the front and a banded bottom hem. Style the See The Good Pullover with your favorite leggings and sneakers for a casual look! Available in 2 colors."/>
+                </StackLayout>
+            
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="Greatest Adventure Sherpa Denim Jacket" FontAttributes="Bold" TextColor="#5D8C9A" FontSize="30"/>
+                            <Label Text="190DT" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_sherpa_denim_jacket-9_059d289f-c6a1-4f2a-919c-91c0df6f0875_1800x1800.jpg?v=1640720212" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Spend the day exploring cafes and bookstores in the Greatest Adventure Sherpa Denim Jacket! This cute jacket is made of a sturdy denim fabric with a cozy sherpa lining on the body. It features a collared neckline, a functional button front, long sleeves with button cuffs, and a relaxed bodice. It also has 2 side pockets, and button tabs on the back for the perfect fit! Style the Greatest Adventure Sherpa Denim Jacket over graphic tees or sweaters for a trendy look! Available in 2 colors ."/>
+                </StackLayout>
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

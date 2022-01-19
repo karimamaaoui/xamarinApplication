@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.Shoes">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="Denver Combat Boots " FontAttributes="Bold" TextColor="#D1AA88" FontSize="30"/>
+                            <Label Text="130DT" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_combat_boots-16_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Level up your look with the Denver Combat Boots! These edgy boots are designed with a faux leather. They feature a rounded toe and lace-up, ankle-high shaft with a zipper on the in-step. They also have a platform sole to give you some extra height! Style the Denver Boots with anything from denim to dresses! Available in 2 colors."/>
+                </StackLayout>
+            
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal" >
+                    <StackLayout Orientation="Vertical" Margin="10">
+                        <Label Text="Boulder Block Heel Booties" FontAttributes="Bold" TextColor="#D1AA88" FontSize="30" Margin="10"/>
+                            <Label Text="99DT" FontSize="35" Padding="0, 0,10,0" />
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_block_heel_booties1-6_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Step out looking proper and polished with the help of the Boulder Block Heel Booties! These cute ankle booties are designed with a soft faux leather. They feature a pointed toe, and a block heel. They also feature an ankle-high shaft with zippers on both the in-step and out-step. Style the Boulder Booties with your favorite denim + sweaters for a boho vibe! Available in 2 colors."/>
+                </StackLayout>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

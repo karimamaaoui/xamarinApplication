@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KarimaMaaoui.Views.Accessories">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="So Chill Leopard Pom Pom Beanie" FontAttributes="Bold" TextColor="#BEBAAF" FontSize="30"/>
+                            <Label Text="26Dt" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/image_e2f34776-b8ba-40c4-905f-ae6e7513c63b_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Stay warm while looking cool with the So Chill Leopard Pom Pom Beanie! This cute beanie is designed with a soft and stretchy knit in a fun leopard print with a pom pom on the top! Available in 2 colors."/>
+                </StackLayout>
+       
+           
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Padding="20, 10, 0, 0" Orientation="Horizontal">
+
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="Season Of Cheer Plaid Poncho" FontAttributes="Bold" TextColor="#BEBAAF" FontSize="30"/>
+                            <Label Text="50DT" FontSize="35" Padding="0, 0,10,0"/>
+                        </StackLayout>
+                    <Image  Source="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_plaid_poncho_01448dc2-766e-47b2-b980-bf652543d8f3_1800x1800.jpg" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                <Label Text="Bundle up for cozy season with the Season Of Cheer Plaid Poncho! This cozy blanket scarf is designed with a soft and stretchy knit in a festive plaid pattern. It features an oversized fit with fringe hems. Style the Season Of Cheer Plaid Poncho over a basic long sleeve tee + leggings for a cozy yet cute outfit! Available in 2 colors."/>
+                </StackLayout>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+              x:Class="KarimaMaaoui.Views.Voiture">
+    <CarouselPage.Children>
+        <ContentPage>
+            <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                
+                    <StackLayout Orientation="Vertical" Padding="0,0,0,0">
+                    <Image  Source="https://marque-voiture.com/wp-content/uploads/2016/01/Mini-Cooper-S-2007-2014.jpg" HeightRequest="200" WidthRequest="100" Margin="15"/>
+                    <Label Text=" MINI Hardtop 2-Door" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label HorizontalOptions="Center" Text="Called the MINI Hardtop 2-Door in the United States and the MINI 3-Door in Canada as well as internationally, the subcompact hatchback gets two distinct new models for 2021 which we'll address in a second. The Hardtop 2-Door/3-Door lineup also consists of the Cooper (134-hp turbo 1.5L I3), the Cooper S (189-hp turbo 2.0L I4) and the John Cooper Works (228-hp turbo 2.0L I4), available with either a six-speed manual transmission or a dual-clutch seven-speed automatic. As usual, a bunch of special-edition variants are offered for 2021, including the Oxford Edition (U.S. only), the Coral Red Edition (U.S.), the Paddy Hopkirk Edition (U.S. and Canada) and the Cooper 1499 GT (U.S.)."/>
+                    </StackLayout>
+                
+            </StackLayout>
+        </ContentPage>
+        <ContentPage>
+            <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                
+                    <StackLayout Orientation="Vertical" Padding="0,0,0,0">
+                    <Image  Source="https://media.ed.edmunds-media.com/bmw/m8/2020/oem/2020_bmw_m8_convertible_competition_fq_oem_1_815.jpg" HeightRequest="200" WidthRequest="200"/>
+                    <Label Text="BMW M8" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label HorizontalOptions="Center" Text="The 2022 BMW M8 is the Bavarian automaker's flagship luxury performance car, equipped with a 617-horsepower twin-turbo 4.4-liter V8 and sport-tuned all-wheel-drive system that put it up there with some of the quickest cars on the market. Not only is it quick, the M8 is supremely comfortable thanks to an adaptive suspension setup that goes from racetrack stiff to boulevard cruiser soft at the push of a button"/>
+                    </StackLayout>
+                
+            </StackLayout>
+        </ContentPage>
+        <ContentPage>
+            <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                
+                    <StackLayout Orientation="Vertical" Padding="0,0,0,0">
+                    <Image  Source="https://www.gaz-mobilite.fr/img/modeles/fiat_punto-gpl.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Label Text="FIAT" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label HorizontalOptions="Center" Text="Cylindrée	999 cm3
+Nombre de cylindres	3
+Nombre de soupapes par cylindre	4
+Puissance fiscale	5 CV
+Couple	190 Nm à 1500 trs/min
+Motorisation	Essence
+Boîte de vitesses	Mécanique
+Nombre de vitesses	5
+Puissance Din	100 Ch à 5000 trs/min."/>
+                    </StackLayout>
+                
+            </StackLayout>
+        </ContentPage>
+    </CarouselPage.Children>
+</CarouselPage>

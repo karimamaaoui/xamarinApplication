@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net" Version="1.6.292" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="19.4.0.41" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Accessories.xaml.cs">
+      <DependentUpon>Accessories.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Dresses.xaml.cs">
+      <DependentUpon>Dresses.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clothing.xaml.cs">
+      <DependentUpon>Clothing.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Shoes.xaml.cs">
+      <DependentUpon>Shoes.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Baby.xaml.cs">
+      <DependentUpon>Baby.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NewArrivals.xaml.cs">
+      <DependentUpon>NewArrivals.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
